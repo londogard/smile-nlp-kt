@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.londogard.MyLibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-14T06:57:33" hostname="londet-Latitude-7480" time="0.053">
+  <properties/>
+  <testcase name="testTokenization" classname="com.londogard.MyLibraryTest" time="0.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

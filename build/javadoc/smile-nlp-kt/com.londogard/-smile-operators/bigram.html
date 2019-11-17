@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SmileOperators.bigram - smile-nlp-kt</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">smile-nlp-kt</a>&nbsp;/&nbsp;<a href="../index.html">com.londogard</a>&nbsp;/&nbsp;<a href="index.html">SmileOperators</a>&nbsp;/&nbsp;<a href="./bigram.html">bigram</a><br/>
+<br/>
+<h1>bigram</h1>
+<a name="com.londogard.SmileOperators$bigram(kotlin.Int, kotlin.Int, kotlin.collections.List((kotlin.String)))"></a>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">bigram</span><span class="symbol">(</span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Int, kotlin.Int, kotlin.collections.List((kotlin.String)))/k">k</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Int, kotlin.Int, kotlin.collections.List((kotlin.String)))/minFreq">minFreq</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Int, kotlin.Int, kotlin.collections.List((kotlin.String)))/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><span class="identifier">BigramCollocation</span><span class="symbol">&gt;</span></code>
+<h3>Parameters</h3>
+<p><a name="k"></a>
+<code>k</code> - the top k bigram collocations in the given corpus.</p>
+<p><a name="minFreq"></a>
+<code>minFreq</code> - the minimum frequency of collocation.</p>
+<p><a name="text"></a>
+<code>text</code> - is a list of documents</p>
+<p><strong>Return</strong><br/>
+the top k bigrams.</p>
+<a name="com.londogard.SmileOperators$bigram(kotlin.Double, kotlin.Int, kotlin.collections.List((kotlin.String)))"></a>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">bigram</span><span class="symbol">(</span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Double, kotlin.Int, kotlin.collections.List((kotlin.String)))/p">p</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a><span class="symbol">, </span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Double, kotlin.Int, kotlin.collections.List((kotlin.String)))/minFreq">minFreq</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.londogard.SmileOperators$bigram(kotlin.Double, kotlin.Int, kotlin.collections.List((kotlin.String)))/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><span class="identifier">BigramCollocation</span><span class="symbol">&gt;</span></code>
+<h3>Parameters</h3>
+<p><a name="p"></a>
+<code>p</code> - the p-value threshold</p>
+<p><strong>Return</strong><br/>
+the array of significant bigram collocations in descending order
+of likelihood ratio.</p>
+</BODY>
+</HTML>

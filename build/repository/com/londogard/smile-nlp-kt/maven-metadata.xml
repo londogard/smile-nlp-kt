@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.londogard</groupId>
+  <artifactId>smile-nlp-kt</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20191114065921</lastUpdated>
+  </versioning>
+</metadata>

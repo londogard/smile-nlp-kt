@@ -1,0 +1,10 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.londogard$bag(kotlin.String, com.londogard.StopWordFilter, smile.nlp.stemmer.Stemmer)com.londogard/kotlin.-string/bag.html
+$dokka.location:com.londogard$bag2(kotlin.String, smile.nlp.stemmer.Stemmer)com.londogard/kotlin.-string/bag2.html
+$dokka.location:com.londogard$keywords(kotlin.String, kotlin.Int)com.londogard/kotlin.-string/keywords.html
+$dokka.location:com.londogard$normalize(kotlin.String)com.londogard/kotlin.-string/normalize.html
+$dokka.location:com.londogard$postag(kotlin.String)com.londogard/kotlin.-string/postag.html
+$dokka.location:com.londogard$sentences(kotlin.String)com.londogard/kotlin.-string/sentences.html
+$dokka.location:com.londogard$words(kotlin.String, com.londogard.StopWordFilter)com.londogard/kotlin.-string/words.html
+com.londogard
