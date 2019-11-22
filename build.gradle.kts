@@ -4,15 +4,9 @@ import org.gradle.jvm.tasks.Jar
 plugins {
     `build-scan`
     `maven-publish`
-    id("org.jetbrains.dokka") version "0.9.17"
-    kotlin("jvm") version "1.3.50"
-}
-
-buildScan {
-    termsOfServiceUrl = "https://gradle.com/terms-of-service"
-    termsOfServiceAgree = "yes"
-
-    publishAlways()
+    id("org.jetbrains.dokka") version "0.10.0"
+    id("com.github.ben-manes.versions") version "0.27.0"
+    kotlin("jvm") version "1.3.60"
 }
 
 group = "com.londogard"
