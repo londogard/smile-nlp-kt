@@ -20,4 +20,4 @@ jobs:
       - name: Publish Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew publishing
+        run: ./gradlew publish
