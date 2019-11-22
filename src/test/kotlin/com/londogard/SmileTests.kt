@@ -2,8 +2,6 @@ package com.londogard
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-// https://guides.gradle.org/building-kotlin-jvm-libraries/
-
 
 class MyLibraryTest {
     @Test fun testTokenization() {
