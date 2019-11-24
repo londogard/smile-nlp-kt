@@ -10,6 +10,6 @@ Add the following to your `build.gradle`. `$version` should be equal to the vers
         maven { url "https://jitpack.io" }
    }
    dependencies {
-         implementation 'com.github.jitpack:com.londogard:smile-nlp-kt:$version'
+         implementation 'com.github.jitpack:com.londogard:smile-nlp-kt:v$version'
    }
 ```
