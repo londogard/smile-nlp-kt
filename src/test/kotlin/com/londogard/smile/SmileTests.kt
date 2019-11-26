@@ -1,7 +1,8 @@
-package com.londogard
+package com.londogard.smile
 
-import com.londogard.smilenlpkt.extensions.StopWordFilter
-import com.londogard.smilenlpkt.extensions.words
+import com.londogard.smile.extensions.StopWordFilter
+import com.londogard.smile.extensions.sentences
+import com.londogard.smile.extensions.words
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -9,7 +10,8 @@ class MyLibraryTest {
     @Test fun testTokenization() {
         assertEquals(listOf("hey", "there", "you", "are", "londogard"), "hey there you are londogard".words(filter= StopWordFilter.NONE))
         assertEquals(listOf("hey", "londogard"), "hey there you are londogard".words())
-        // TODO add more test coverage
+        assertEquals(listOf("Hej där!", "Du är en människa."), "Hej där! Du är en människa.".sentences())
+
     }
 }
 

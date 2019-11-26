@@ -1,6 +1,6 @@
-package com.londogard.smilenlpkt.extensions
+package com.londogard.smile.extensions
 
-import com.londogard.smilenlpkt.SmileSingleton
+import com.londogard.smile.SmileSingleton
 import smile.nlp.NGram
 import smile.nlp.dictionary.EnglishPunctuations
 import smile.nlp.dictionary.EnglishStopWords

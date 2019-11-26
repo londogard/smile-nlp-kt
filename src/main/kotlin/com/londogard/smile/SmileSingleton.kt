@@ -1,4 +1,4 @@
-package com.londogard.smilenlpkt
+package com.londogard.smile
 
 import smile.nlp.collocation.AprioriPhraseExtractor
 import smile.nlp.keyword.CooccurrenceKeywordExtractor
