@@ -1,5 +1,8 @@
-package com.londogard
+package com.londogard.smile
 
+import com.londogard.smile.extensions.StopWordFilter
+import com.londogard.smile.extensions.sentences
+import com.londogard.smile.extensions.words
 import smile.math.Math
 import smile.nlp.NGram
 import smile.nlp.SimpleCorpus
