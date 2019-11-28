@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.londogard"
-version = "1.0-beta"
+version = "1.0.1-beta"
 
 repositories {
     mavenCentral()
@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("com.github.haifengl:smile-nlp:1.5.3")
+    api("com.github.haifengl:smile-nlp:1.5.3")
 
     testImplementation("junit:junit:4.12")
 }
