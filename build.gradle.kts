@@ -6,7 +6,6 @@ plugins {
     `maven-publish`
     id("org.jetbrains.dokka") version "0.10.0"
     id("com.github.ben-manes.versions") version "0.27.0"
-    id("com.github.johnrengelman.shadow") version "5.2.0"
     kotlin("jvm") version "1.3.60"
 }
 
@@ -15,12 +14,11 @@ version = "1.0-beta"
 
 repositories {
     mavenCentral()
-    maven(uri("https://jitpack.io"))
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    compile("com.github.haifengl:smile-nlp:1.5.3")
+    api("com.github.haifengl:smile-nlp:1.5.3")
 
     testImplementation("junit:junit:4.12")
 }
