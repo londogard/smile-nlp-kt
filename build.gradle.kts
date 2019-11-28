@@ -6,6 +6,7 @@ plugins {
     `maven-publish`
     id("org.jetbrains.dokka") version "0.10.0"
     id("com.github.ben-manes.versions") version "0.27.0"
+    id("com.github.johnrengelman.shadow") version "5.2.0"
     kotlin("jvm") version "1.3.60"
 }
 
