@@ -4,6 +4,7 @@ import org.gradle.jvm.tasks.Jar
 plugins {
     `build-scan`
     `maven-publish`
+    id("maven")
     id("org.jetbrains.dokka") version "0.10.0"
     id("com.github.ben-manes.versions") version "0.27.0"
     kotlin("jvm") version "1.3.60"
@@ -14,6 +15,7 @@ version = "1.0-beta"
 
 repositories {
     mavenCentral()
+    maven(uri("https://jitpack.io"))
 }
 
 dependencies {
