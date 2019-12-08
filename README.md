@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/com.londogard/smile-nlp-kt.svg)](https://jitpack.io/#com.londogard/smile-nlp-kt)
+[![](https://jitpack.io/v/com.londogard/smile-nlp-kt.svg)](https://jitpack.io/#com.londogard/smile-nlp-kt)<a href='https://ko-fi.com/O5O819SEH' target='_blank'><img height='22' style='border:0px;height:22px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 # smile-nlp-kt
 Kotlin extensions / Interfaces that extends the Java/Scala implementation/implicits of Smile NLP. Basically a simplification for kotlin (&amp; probably Java) users.
