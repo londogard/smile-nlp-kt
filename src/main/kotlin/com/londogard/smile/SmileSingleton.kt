@@ -1,7 +1,6 @@
 package com.londogard.smile
 
-import smile.nlp.collocation.AprioriPhraseExtractor
-import smile.nlp.keyword.CooccurrenceKeywordExtractor
+import smile.nlp.stemmer.LancasterStemmer
 import smile.nlp.stemmer.PorterStemmer
 import smile.nlp.tokenizer.SimpleTokenizer
 
@@ -10,7 +9,9 @@ import smile.nlp.tokenizer.SimpleTokenizer
  */
 object SmileSingleton {
     val simpleTokenizer by lazy { SimpleTokenizer(true) }
-    val keywordExtractor by lazy { CooccurrenceKeywordExtractor() }
     val porter by lazy { PorterStemmer() }
-    val phrase by lazy { AprioriPhraseExtractor() }
+    val lancaster by lazy { LancasterStemmer() }
+
+    fun porter(word: String): String = porter.stem(word)
+    fun lancaster(word: String): String = lancaster.stem(word)
 }

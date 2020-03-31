@@ -5,13 +5,14 @@ import smile.nlp.NGram
 import smile.nlp.dictionary.EnglishPunctuations
 import smile.nlp.dictionary.EnglishStopWords
 import smile.nlp.dictionary.StopWords
+import smile.nlp.keyword.CooccurrenceKeywords
 import smile.nlp.normalizer.SimpleNormalizer
 import smile.nlp.pos.HMMPOSTagger
 import smile.nlp.pos.PennTreebankPOS
 import smile.nlp.stemmer.PorterStemmer
 import smile.nlp.stemmer.Stemmer
 import smile.nlp.tokenizer.SimpleSentenceSplitter
-import java.util.ArrayList
+import java.util.*
 
 /**
  * This file includes a ton of extensions on top of the String class. These helps using the Smile NLP libray.
@@ -78,5 +79,4 @@ fun String.postag(): List<Pair<String, PennTreebankPOS>> {
     return words.zip(HMMPOSTagger.getDefault().tag(words.toTypedArray()))
 }
 
-fun String.keywords(k: Int = 10): ArrayList<NGram> =
-    SmileSingleton.keywordExtractor.extract(this, k)
+fun String.keywords(k: Int = 10): List<NGram> = CooccurrenceKeywords.of(this, k).toList()

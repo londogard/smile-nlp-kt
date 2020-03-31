@@ -6,11 +6,11 @@ plugins {
     `maven-publish`
     id("org.jetbrains.dokka") version "0.10.0"
     id("com.github.ben-manes.versions") version "0.27.0"
-    kotlin("jvm") version "1.3.60"
+    kotlin("jvm") version "1.3.71"
 }
 
 group = "com.londogard"
-version = "1.0.1-beta"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    api("com.github.haifengl:smile-nlp:1.5.3")
+    api("com.github.haifengl:smile-nlp:2.2.2")
 
     testImplementation("junit:junit:4.12")
 }
